@@ -1,0 +1,114 @@
+.Header {
+  height: 80px;
+  padding: 17px;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.Login-Button {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2.8;
+  letter-spacing: normal;
+  color: #fff;
+  background: transparent;
+  border: none;
+  margin-right: 260px;
+  transition: 0.5s ease-in-out;
+}
+
+.Create-an-account-button {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2;
+  letter-spacing: normal;
+  width: 181px;
+  height: 46px;
+  border-radius: 3px;
+  border: solid 1px #fff;
+  background: transparent;
+  color: white;
+  margin-left: 10px;
+  transition: 0.5s ease-in-out;
+}
+
+.Login-Button:hover,
+.Create-an-account-button:hover {
+  transform: scale(1.1);
+}
+
+.Logo-Section {
+  text-align: right;
+  margin: -8px;
+}
+
+.logo-small {
+  width: 60px;
+  height: 60px;
+  font-family: Poppins;
+  font-size: 45px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.3;
+  letter-spacing: normal;
+  color: #eb2929;
+  background: white;
+  border-radius: 50%;
+  text-align: center;
+  cursor: pointer;
+}
+
+.User {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 3;
+  letter-spacing: normal;
+  color: #fff;
+  background: transparent;
+  border: none;
+  margin-right: 100px;
+}
+
+.Logout {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2.8;
+  letter-spacing: normal;
+  width: auto;
+  height: 46px;
+  border-radius: 3px;
+  border: none;
+  background: transparent;
+  color: white;
+}
+
+.Facebook-Login-Button {
+  width: 100%;
+  height: 44px;
+  padding: 0px;
+  border-radius: 5px;
+  margin-bottom: 14px;
+  background-color: #3b5998;
+}
+
+.Google-Login-Button {
+  width: 100%;
+  padding-left: 85px !important;
+  font-weight: bold !important;
+  text-transform: uppercase;
+  height: 42px;
+}

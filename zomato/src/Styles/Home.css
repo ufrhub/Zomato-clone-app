@@ -1,0 +1,282 @@
+/* The header section has no margin */
+body {
+  margin: 0%;
+}
+
+/* Top Section CSS */
+.TOP-SECTION {
+  position: absolute;
+  text-align: center;
+  top: 100px;
+  width: 100%;
+}
+
+.Logo {
+  width: 137px;
+  height: 137px;
+  border: solid 1px #707070;
+  background-color: #ffffff;
+  border-radius: 50%;
+  font-family: Poppins;
+  font-size: 70px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.9;
+  letter-spacing: normal;
+  color: #eb2929;
+}
+
+.Main-Heading {
+  height: 51px;
+  font-family: Poppins;
+  font-size: 36px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.53;
+  letter-spacing: normal;
+  color: #ffffff;
+  margin-top: 150px;
+  margin-bottom: 30px;
+}
+
+.Search-Location,
+.Search-Restaurant {
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.Select-Location {
+  width: 245px;
+  height: 60px;
+  background-color: #ffffff;
+  padding-left: 30px;
+  color: #636f88;
+}
+
+.restaurant {
+  display: inline-block;
+  background-color: #ffffff;
+}
+
+.search-icon {
+  color: #636f88;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.Search-for-restaurants {
+  width: 460px;
+  height: 60px;
+  background-color: #ffffff;
+  border: #ffffff;
+  padding-left: 10px;
+  color: #636f88;
+}
+
+/* Bottom Section CSS */
+.BOTTOM-SECTION {
+  margin-bottom: 70px;
+}
+
+.Main-Heading-Bottom-Section {
+  width: auto;
+  height: 43px;
+  font-family: Poppins;
+  font-size: 30px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.53;
+  letter-spacing: normal;
+  text-align: left;
+  color: #192f60;
+  padding-top: 40px;
+  padding-left: 35px;
+  margin-bottom: 45px;
+}
+
+.Main-SubHeading-Bottom-Section {
+  width: auto;
+  height: 25px;
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: left;
+  color: #8c96ab;
+  padding-left: 35px;
+  margin-bottom: 30px;
+}
+.Search-Box {
+  position: relative;
+  width: 400px !important;
+  height: 160px;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+  background-color: #ffffff;
+  margin-bottom: 20px;
+  transition: 0.5s ease-in-out;
+  cursor: pointer;
+}
+
+.Search-Box:hover {
+  transform: scale(1.1);
+}
+
+.Search-Box-Image {
+  position: absolute;
+  width: 160px;
+  height: 160px;
+}
+
+.Search-Box-Heading {
+  position: absolute;
+  width: 88px;
+  height: 25px;
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  color: #192f60;
+  left: 200px;
+  top: 25px;
+}
+
+.Search-Box-Paragraph {
+  position: absolute;
+  width: 137px;
+  height: 62px;
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  color: #8c96ab;
+  top: 55px;
+  left: 200px;
+}
+
+@media (max-width: 1400px) {
+  .Search-Box {
+    width: 47% !important;
+  }
+}
+
+@media (max-width: 1000px) {
+  .Search-Box {
+    width: 99% !important;
+  }
+
+  .Search-Box-Heading {
+    left: 300px;
+  }
+
+  .Search-Box-Paragraph {
+    left: 300px;
+  }
+
+  .Search-Box-Image {
+    width: 250px;
+  }
+}
+
+@media (max-width: 1040px) {
+  .Search-for-restaurants {
+    width: 380px;
+  }
+}
+
+@media (max-width: 762px) {
+  .Main-Heading {
+    font-size: 35px;
+  }
+}
+
+@media (max-width: 740px) {
+  .Main-Heading {
+    font-size: 30px;
+  }
+}
+
+/* restaurant search box css */
+.searchSection {
+  position: relative;
+  display: inline-block;
+}
+
+.suggestionsBox {
+  position: absolute;
+  background: white;
+  list-style: none;
+  padding: 10px;
+  border-radius: 5px;
+  width: 477px;
+  box-shadow: 0 3px 6px 0 rgb(0 0 0 / 16%);
+  cursor: pointer;
+}
+
+.suggestionItem {
+  display: flex;
+  width: 100%;
+  border-bottom: 1px solid #dee2e6;
+}
+
+.suggestionImage {
+  position: absolute;
+  display: inline-block;
+}
+
+.suggestionImage img {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+}
+
+.suggestionText {
+  display: inline-block;
+  margin-left: 55px;
+  text-align: left;
+}
+
+.suggestionTextName {
+  height: 23px;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  text-align: left;
+  color: #192f60;
+}
+
+.suggestionTextLocality {
+  height: 17px;
+  font-family: Poppins;
+  font-size: 12px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  text-align: left;
+  color: #636f88;
+  margin-bottom: 15px;
+}
+
+.orderButton {
+  display: inline-block;
+  float: right;
+  position: absolute;
+  right: 20px;
+}
